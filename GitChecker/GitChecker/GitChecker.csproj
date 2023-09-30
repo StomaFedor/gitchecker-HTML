@@ -1,16 +1,14 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net6.0</TargetFramework>
-    <RootNamespace>HTML_generator</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Aspose.HTML" Version="23.9.0" />
-    <PackageReference Include="Syroot.Windows.IO.KnownFolders" Version="1.3.0" />
+    <ProjectReference Include="..\HtmlBuilder\HtmlBuilder.csproj" />
   </ItemGroup>
 
 </Project>
